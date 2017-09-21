@@ -56,13 +56,14 @@ public class TelematicsService {
             avgGasConsumption += vInfo.getGasConsumption();
             avgMilesUntilOilChange += vInfo.getMilesUntilOilChange();
             vehicleHTML += "<tr>\n" +
-                    "<th>Odometer (miles) |</th><th>Consumption (gallons) |</th><th>Last Oil Change |</th><th>Engine Size (liters)</th>\n" +
+                    "<th>Vin|</th><th>Odometer (miles) |</th><th>Consumption (gallons) |</th><th>Last Oil Change |</th><th>Engine Size (liters)</th>\n" +
                     "</tr>\n" +
                     "<tr>\n" +
                     "<td align=\"center\">"+ vInfo.getVIN() +
-                    "</td><td align=\"center\">"+ vInfo.getMileage() +
-                    "</td><td align=\"center\">"+vInfo.getGasConsumption()+
-                    "</td align=\"center\"><td align=\"center\">"+vInfo.getMilesUntilOilChange()+
+                    "</td> <td align=\"center\">"+ vInfo.getMileage() +
+                    "</td> <td align=\"center\">"+ vInfo.getGasConsumption() +
+                    "</td> <td align=\"center\">" + vInfo.getMilesUntilOilChange()+
+                    "<td align=\"center\">"+vInfo.getEngineSize()+
                     "</td>\n" +
                     "</tr>";
         }
