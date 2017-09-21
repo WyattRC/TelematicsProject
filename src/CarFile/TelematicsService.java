@@ -87,10 +87,10 @@ public class TelematicsService {
                 "<th>Engine Size (liters)</th>\n" +
                 "</tr>\n" +
                 "<tr>\n" +
-                "<td> align=\"center\">"+avgMileage+"</td>" +
-                "<td> align=\"center\">"+avgGasConsumption+"</td>" +
-                "<td> align=\"center\">"+avgMilesUntilOilChange+"</td>" +
-                "<td> align=\"center\">"+avgEngineSize+"</td>\n" +
+                "<td align=\"center\">"+avgMileage+"</td>" +
+                "<td align=\"center\">"+avgGasConsumption+"</td>" +
+                "<td align=\"center\">"+avgMilesUntilOilChange+"</td>" +
+                "<td align=\"center\">"+avgEngineSize+"</td>\n" +
                 "</tr>\n" +
                 "</table>\n" +
                 "<br>" +
