@@ -45,7 +45,7 @@ public class Main {
           e.printStackTrace();
       }
       try {
-          TelematicsService.Updater(list);
+          TelematicsService.updater(list);
       } catch (IOException e) {
           e.printStackTrace();
       }

@@ -37,7 +37,7 @@ public class TelematicsService {
         return a;
     }
 
-    public static void Updater(ArrayList<VehicleInfo> vehicles) throws IOException {
+    public static void updater(ArrayList<VehicleInfo> vehicles) throws IOException {
 
 
         double avgMileage = 0;
