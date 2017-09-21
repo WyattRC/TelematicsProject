@@ -97,7 +97,8 @@ public class TelematicsService {
                 "<h1 align=\"center\">History</h1>\n";
 
 
-        primaryHTML += vehicleHTML;
+        primaryHTML += "<table align=\"center\" border=\"1\">\n" + vehicleHTML  +
+                "</table>\n" + "</body>\n" + "</html>";;
 
         try {
             FileOutputStream stream = new FileOutputStream(file, false);
